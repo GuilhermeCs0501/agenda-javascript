@@ -16,6 +16,8 @@ dotenv
 npm
 
 ## Estrutura do projeto
+
+```text
 ProjetoAgenda/
 ├── frontend/
 │   ├── assets/
@@ -26,10 +28,25 @@ ProjetoAgenda/
 │
 ├── src/
 │   ├── controllers/
+│   │   ├── contatoController.js
+│   │   ├── homeController.js
+│   │   └── loginController.js
+│   │
 │   ├── middlewares/
+│   │   └── middleware.js
+│   │
 │   ├── models/
+│   │   ├── ContatoModel.js
+│   │   ├── HomeModel.js
+│   │   └── LoginModel.js
+│   │
 │   └── views/
 │       ├── includes/
+│       │   ├── footer.ejs
+│       │   ├── head.ejs
+│       │   ├── messages.ejs
+│       │   └── nav.ejs
+│       │
 │       ├── 404.ejs
 │       ├── contato.ejs
 │       ├── index.ejs
@@ -37,12 +54,12 @@ ProjetoAgenda/
 │       └── login-logado.ejs
 │
 ├── .babelrc
-├── .env
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── routes.js
 └── server.js
+```
 
 ## Como executar o projeto
 

@@ -70,12 +70,3 @@ mongoose.connect(process.env.CONNECTIONSTRING)
 
 
 
-
-
-//          Criar   Ler   Atualizar Apagar
-// CRUD  -> CREATE, READ, UPDATE, DELETE
-//          Post    Get    Put     Delete
-// http://meusite.com/ <- GET -> Entregue a pagina/
-
-
-//http://facebool.com/users/profiles/12345?campanha=googleads  Query String

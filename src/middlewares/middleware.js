@@ -7,11 +7,6 @@ exports.middlewareGlobal = (req, res, next) => {
     next(); // Obrigado a ter
 };
 
-// exports.checkCsrfError = (err, req, res, next) => {
-//     if(err && err.code === 'EBADCSRFTOKEN') {
-//         return res.send('Bad CSRF.')
-//     }
-// }
 exports.checkCsrfError = (err, req, res, next) => {
     if(err ) {
         return res.render('404')
